@@ -35,6 +35,10 @@ img {
   max-width: 100%;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 @each $color, $val in $colors {
   .color-#{$color} {
     color: $val;
